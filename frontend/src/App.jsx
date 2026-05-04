@@ -1,0 +1,41 @@
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import LandingPage from "./pages/LandingPage";
+import DashboardPage from "./pages/DashboardPage";
+import OnboardingPage from "./pages/OnboardingPage";
+import PracticesPage from "./pages/PracticesPage";
+import CreatePracticePage from "./pages/CreatePracticePage";
+import EditPracticePage from "./pages/EditPracticePage";
+import TimesPage from "./pages/TimesPage";
+import AddTimePage from "./pages/AddTimePage";
+import EditTimePage from "./pages/EditTimePage";
+import TeamPage from "./pages/TeamPage";
+
+function Home() {
+  return (
+    <div className="container mt-5">
+      <h1 className="text-primary">SwimSync</h1>
+      <p>Cloud-Based Swim Team Management Platform</p>
+    </div>
+  );
+}
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/dashboard" element={<DashboardPage />} />
+        <Route path="/practices" element={<PracticesPage />} />
+        <Route path="/onboarding" element={<OnboardingPage />} />
+        <Route path="/practices/new" element={<CreatePracticePage />} />
+        <Route path="/practices/:id/edit" element={<EditPracticePage />} />
+        <Route path="/times" element={<TimesPage />} />
+        <Route path="/times/new" element={<AddTimePage />} />
+        <Route path="/times/:id/edit" element={<EditTimePage />} />
+        <Route path="/team" element={<TeamPage />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
+
+export default App
