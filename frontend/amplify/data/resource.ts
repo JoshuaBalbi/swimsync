@@ -1,4 +1,5 @@
 import { type ClientSchema, a, defineData } from "@aws-amplify/backend";
+import { generatePractice } from "../functions/generatePractice/resource";
 
 /*== STEP 1 ===============================================================
 The section below creates a Todo database table with a "content" field. Try
@@ -148,6 +149,19 @@ const schema = a.schema({
     })
     .authorization((allow) => [allow.authenticated()]),
 
+    generatePractice: a
+      .query()
+      .arguments({
+        practiceType: a.string().required(),
+        focus: a.string().required(),
+        totalAmount: a.string().required(),
+        level: a.string(),
+        notes: a.string(),
+      })
+      .returns(a.string())
+      .authorization((allow) => [allow.authenticated()])
+      .handler(a.handler.function(generatePractice)),
+      
 });
 
 export type Schema = ClientSchema<typeof schema>;

@@ -1127,7 +1127,47 @@
         }
       },
       "enums": {},
-      "nonModels": {}
+      "nonModels": {},
+      "queries": {
+        "generatePractice": {
+          "name": "generatePractice",
+          "isArray": false,
+          "type": "String",
+          "isRequired": false,
+          "arguments": {
+            "practiceType": {
+              "name": "practiceType",
+              "isArray": false,
+              "type": "String",
+              "isRequired": true
+            },
+            "focus": {
+              "name": "focus",
+              "isArray": false,
+              "type": "String",
+              "isRequired": true
+            },
+            "totalAmount": {
+              "name": "totalAmount",
+              "isArray": false,
+              "type": "String",
+              "isRequired": true
+            },
+            "level": {
+              "name": "level",
+              "isArray": false,
+              "type": "String",
+              "isRequired": false
+            },
+            "notes": {
+              "name": "notes",
+              "isArray": false,
+              "type": "String",
+              "isRequired": false
+            }
+          }
+        }
+      }
     }
   },
   "storage": {
