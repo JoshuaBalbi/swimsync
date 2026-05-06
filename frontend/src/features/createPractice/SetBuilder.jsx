@@ -37,7 +37,7 @@ function SetBuilder({ onChange }) {
         />
       ))}
 
-      <button className="btn btn-outline-primary mt-2" onClick={addSet}>
+      <button type="button" className="btn btn-outline-primary mt-2" onClick={addSet}>
         + Add Set
       </button>
     </div>

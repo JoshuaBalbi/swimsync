@@ -61,11 +61,25 @@ function PracticeFilters({ filters, setFilters }) {
             </select>
           </div>
 
+          <div className="col-md-3">
+            <label className="form-label">Practice Date</label>
+            <select
+              name="practiceTime"
+              className="form-select"
+              value={filters.practiceTime}
+              onChange={handleChange}
+            >
+              <option value="">All Practices</option>
+              <option value="upcoming">Upcoming / Today</option>
+              <option value="past">Past Practices</option>
+            </select>
+          </div>
+
           <div className="col-md-3 d-flex align-items-end">
             <button
               className="btn btn-outline-secondary w-100"
               onClick={() =>
-                setFilters({ type: "", focus: "", teamScope: "" })
+                setFilters({ type: "", focus: "", teamScope: "", practiceTime: "" })
               }
             >
               Reset Filters

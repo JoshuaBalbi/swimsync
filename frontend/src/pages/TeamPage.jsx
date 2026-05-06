@@ -127,9 +127,6 @@ function TeamContent({ user }) {
     }
   }
 
-  function handleViewProgress(member) {
-    navigate(`/team/swimmers/${member.userProfileId}`);
-  }
 
   if (loading) {
     return (
@@ -164,7 +161,6 @@ function TeamContent({ user }) {
         <h3 className="fw-bold mt-5 mb-3">Approved Team Members</h3>
         <TeamMembersList
           members={approvedMembers}
-          onViewProgress={handleViewProgress}
         />
       </main>
     </div>

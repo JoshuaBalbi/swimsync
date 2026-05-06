@@ -9,6 +9,9 @@ import TimesPage from "./pages/TimesPage";
 import AddTimePage from "./pages/AddTimePage";
 import EditTimePage from "./pages/EditTimePage";
 import TeamPage from "./pages/TeamPage";
+import AttendancePage from "./pages/AttendancePage";
+import SwimmersPage from "./pages/SwimmersPage";
+import SwimmerProfilePage from "./pages/SwimmerProfilePage";
 
 function Home() {
   return (
@@ -33,6 +36,9 @@ function App() {
         <Route path="/times/new" element={<AddTimePage />} />
         <Route path="/times/:id/edit" element={<EditTimePage />} />
         <Route path="/team" element={<TeamPage />} />
+        <Route path="/attendance" element={<AttendancePage />} />
+        <Route path="/swimmers" element={<SwimmersPage />} />
+        <Route path="/swimmers/:id" element={<SwimmerProfilePage />} />
       </Routes>
     </BrowserRouter>
   );

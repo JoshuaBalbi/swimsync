@@ -98,6 +98,26 @@ const schema = a.schema({
       notes: a.string(),
     })
     .authorization((allow) => [allow.authenticated()]),
+
+  AttendanceRecord: a
+    .model({
+      practiceId: a.string().required(),
+      practiceTitle: a.string(),
+      practiceDate: a.string(),
+      teamId: a.string().required(),
+
+      swimmerId: a.string().required(),
+      swimmerName: a.string(),
+
+      status: a.string().required(), // present, absent, excused
+      notes: a.string(),
+
+      markedByCoachId: a.string().required(),
+      markedByCoachName: a.string(),
+      dateMarked: a.string().required(),
+    })
+    .authorization((allow) => [allow.authenticated()]),
+
 });
 
 export type Schema = ClientSchema<typeof schema>;

@@ -68,6 +68,7 @@ function SetRow({ set, onChange, onRemove }) {
 
         <div className="col-md-1 text-end">
           <button
+            type = "button"
             className="btn btn-outline-danger"
             onClick={onRemove}
           >
