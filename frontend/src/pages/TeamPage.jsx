@@ -13,7 +13,7 @@ function TeamPage() {
   return (
     <Authenticator>
       {({ user }) => <TeamContent user={user} />}
-    </Authenticator>
+    </Authenticator> 
   );
 }
 
