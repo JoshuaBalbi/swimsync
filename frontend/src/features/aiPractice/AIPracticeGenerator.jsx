@@ -3,7 +3,7 @@ import { generateClient } from "aws-amplify/data";
 
 import FormInput from "../../components/ui/FormInput";
 import FormSelect from "../../components/ui/FormSelect";
-import FormTextarea from "../../components/ui/FormTextarea";
+import FormTextarea from "../../components/ui/FormTextArea";
 import GeneratedPracticePreview from "./GeneratedPracticePreview";
 
 function AIPracticeGenerator({ onUseGeneratedPractice }) {

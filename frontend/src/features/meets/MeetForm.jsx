@@ -1,7 +1,7 @@
 import { useState } from "react";
 import FormInput from "../../components/ui/FormInput";
 import FormSelect from "../../components/ui/FormSelect";
-import FormTextarea from "../../components/ui/FormTextarea";
+import FormTextarea from "../../components/ui/FormTextArea";
 
 function MeetForm({ onSubmit, loading }) {
   const [formData, setFormData] = useState({

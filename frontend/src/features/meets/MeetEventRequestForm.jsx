@@ -1,6 +1,6 @@
 import { useState } from "react";
 import FormSelect from "../../components/ui/FormSelect";
-import FormTextarea from "../../components/ui/FormTextarea";
+import FormTextarea from "../../components/ui/FormTextArea";
 
 const strokeOptions = ["Free", "Back", "Breast", "Fly", "IM"];
 

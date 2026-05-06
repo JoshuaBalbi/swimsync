@@ -1,5 +1,5 @@
 import { useState } from "react";
-import FormTextarea from "../../components/ui/FormTextarea";
+import FormTextarea from "../../components/ui/FormTextArea";
 
 function MeetAvailabilityForm({ existingRequest, onSubmit }) {
   const [availability, setAvailability] = useState(
