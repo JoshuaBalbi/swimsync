@@ -12,6 +12,9 @@ import TeamPage from "./pages/TeamPage";
 import AttendancePage from "./pages/AttendancePage";
 import SwimmersPage from "./pages/SwimmersPage";
 import SwimmerProfilePage from "./pages/SwimmerProfilePage";
+import MeetsPage from "./pages/MeetsPage";
+import CreateMeetPage from "./pages/CreateMeetPage";
+import MeetDetailsPage from "./pages/MeetDetailsPage";
 
 function Home() {
   return (
@@ -39,6 +42,9 @@ function App() {
         <Route path="/attendance" element={<AttendancePage />} />
         <Route path="/swimmers" element={<SwimmersPage />} />
         <Route path="/swimmers/:id" element={<SwimmerProfilePage />} />
+        <Route path="/meets" element={<MeetsPage />} />
+        <Route path="/meets/new" element={<CreateMeetPage />} />
+        <Route path="/meets/:id" element={<MeetDetailsPage />} />
       </Routes>
     </BrowserRouter>
   );

@@ -67,12 +67,42 @@ const schema = a.schema({
 
   Meet: a
     .model({
-      teamId: a.string(),
+      teamId: a.string().required(),
       name: a.string().required(),
+      description: a.string(),
       location: a.string(),
       startDate: a.string().required(),
       endDate: a.string(),
-      season: a.string(),
+      course: a.string().required(), // SCY, SCM, LCM
+      createdByCoachId: a.string().required(),
+      createdByCoachName: a.string(),
+    })
+    .authorization((allow) => [allow.authenticated()]),
+
+  MeetFile: a
+    .model({
+      meetId: a.string().required(),
+      label: a.string().required(),
+      fileName: a.string().required(),
+      s3Path: a.string().required(),
+      uploadedByCoachId: a.string().required(),
+      uploadedAt: a.string().required(),
+    })
+    .authorization((allow) => [allow.authenticated()]),
+
+  MeetEventRequest: a
+    .model({
+      meetId: a.string().required(),
+      swimmerId: a.string().required(),
+      swimmerName: a.string(),
+      teamId: a.string().required(),
+
+      availability: a.string().required(), // attending, not_attending, unsure
+      event: a.string(),
+      bestTime: a.string(),
+      bestTimeRaceId: a.string(),
+      notes: a.string(),
+      status: a.string().required(), // requested, approved, rejected
     })
     .authorization((allow) => [allow.authenticated()]),
 

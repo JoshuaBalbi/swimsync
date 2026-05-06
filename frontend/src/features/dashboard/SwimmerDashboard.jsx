@@ -11,9 +11,10 @@ function SwimmerDashboard() {
       />
 
       <DashboardCard
-        icon="💪"
-        title="Log Training"
-        description="Record swim practices, lifts, dryland, and personal sessions."
+        icon="🏆"
+        title="Meets"
+        description="View upcoming meets, meet files, and submit availability."
+        to="/meets"
       />
 
       <DashboardCard
