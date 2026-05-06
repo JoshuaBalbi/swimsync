@@ -13,7 +13,7 @@ Built using AWS Amplify Gen 2 and modern React architecture, SwimSync combines s
 > Add deployed URL here after deployment finishes.
 
 ```txt
-https://your-url.amplifyapp.com
+[https://your-url.amplifyapp.com](https://main.dvm1jt503o71e.amplifyapp.com/)
 ```
 
 ---
@@ -584,13 +584,13 @@ Florida Atlantic University
 GitHub:
 
 ```txt
-https://github.com/YOUR_USERNAME
+[GitHub Link](https://github.com/JoshuaBalbi)
 ```
 
 LinkedIn:
 
 ```txt
-https://linkedin.com/in/YOUR_PROFILE
+[LinkedIn Link](https://www.linkedin.com/in/joshua-balbi-4407981b3)
 ```
 
 ---
