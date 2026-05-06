@@ -10,10 +10,10 @@ Built using AWS Amplify Gen 2 and modern React architecture, SwimSync combines s
 
 # Live Deployment
 
-> Add deployed URL here after deployment finishes.
+> [Amplify URL](https://main.dvm1jt503o71e.amplifyapp.com/)
 
 ```txt
-[https://your-url.amplifyapp.com](https://main.dvm1jt503o71e.amplifyapp.com/)
+https://main.dvm1jt503o71e.amplifyapp.com/
 ```
 
 ---
@@ -581,17 +581,10 @@ Florida Atlantic University
 * Mobile development
 * Competitive swimming technology
 
-GitHub:
+GitHub: [GitHub Link](https://github.com/JoshuaBalbi)
 
-```txt
-[GitHub Link](https://github.com/JoshuaBalbi)
-```
 
-LinkedIn:
-
-```txt
-[LinkedIn Link](https://www.linkedin.com/in/joshua-balbi-4407981b3)
-```
+LinkedIn: [LinkedIn Link](https://www.linkedin.com/in/joshua-balbi-4407981b3)
 
 ---
 
