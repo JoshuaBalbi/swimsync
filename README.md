@@ -19,17 +19,19 @@ https://main.dvm1jt503o71e.amplifyapp.com/
 ---
 # Demo Video
 
+> [SwimSync Demo](https://youtu.be/mREuzJO4XmM)
 
 ```txt
-[SwimSync Demo](https://youtu.be/mREuzJO4XmM)
+https://youtu.be/mREuzJO4XmM
 ```
 ---
 
 # Cloud Architecture Presentation
 
+> [SwimSync Presentation](https://youtu.be/0T809s3Y0fo)
 
 ```txt
-[SwimSync Presentation](https://youtu.be/0T809s3Y0fo)
+https://youtu.be/0T809s3Y0fo
 ```
 ---
 
