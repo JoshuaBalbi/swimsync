@@ -445,7 +445,7 @@ frontend/
 # 1. Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/swimsync.git
+git clone https://github.com/JoshuaBalbi/swimsync.git
 ```
 
 ---
