@@ -17,47 +17,20 @@ https://main.dvm1jt503o71e.amplifyapp.com/
 ```
 
 ---
-
 # Demo Video
 
-> Add demo video link here.
 
 ```txt
-https://youtube.com/...
+[SwimSync Demo](https://youtu.be/mREuzJO4XmM)
 ```
-
 ---
 
-# Screenshots
+# Cloud Architecture Presentation
 
-## Landing Page
 
-*Add screenshot here*
-
----
-
-## Coach Dashboard
-
-*Add screenshot here*
-
----
-
-## AI Practice Builder
-
-*Add screenshot here*
-
----
-
-## Meet Management
-
-*Add screenshot here*
-
----
-
-## Swimmer Profile
-
-*Add screenshot here*
-
+```txt
+[SwimSync Presentation](https://youtu.be/0T809s3Y0fo)
+```
 ---
 
 # Problem Statement
